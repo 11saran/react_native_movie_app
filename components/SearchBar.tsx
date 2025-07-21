@@ -18,6 +18,7 @@ const SearchBar = ({ placeholder, onPress }: Props) => {
       />
       <TextInput
         onPress={onPress}
+        //@ts-ignore
         placeholder={placeholder}
         value=""
         onChangeText={() => {}}
